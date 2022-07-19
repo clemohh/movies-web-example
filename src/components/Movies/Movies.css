@@ -1,0 +1,11 @@
+.movies{
+    border: none;
+}
+.movies-h2{
+    font-size: 30px;
+    align-items: right;
+    justify-content: center;
+    padding-left: 45%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

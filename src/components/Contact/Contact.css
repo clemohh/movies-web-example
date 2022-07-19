@@ -1,0 +1,94 @@
+.contact {
+    width: 100%;
+    display: flex;
+  }
+  
+  .contact .leftSide {
+   flex: 1;
+   justify-content: center;
+   align-items: center;
+
+   display: flex;
+  }
+  .contact .leftSide >span{
+    gap: 1rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: #0fd629;
+    text-indent: 2px;
+    text-orientation: sideways;
+    transform:rotate(-45deg);
+    font-size: 40px;
+  }
+  
+  .contact .rightSide {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact .rightSide h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 1px;
+  }
+  
+  form input {
+    height: 40px;
+    width: 50%;
+    border: none;
+    border-radius: 3rem;
+    border-bottom: 1px solid #121619;
+    color: rgb(228, 21, 21);
+    padding-left: 1rem;
+  }
+  
+  form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    padding-left: 1rem;
+    font-weight: italic;
+    color: rgb(31, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-top: 15px;
+    color: grey;
+  }
+  
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 3rem;
+    background-color: #0fd629;
+    color: rgb(14, 13, 13);
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
